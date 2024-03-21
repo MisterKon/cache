@@ -2,7 +2,7 @@ import Link from "next/link";
 
 async function getBlogs() {
   const res = await fetch(
-    "https://64435eec90738aa7c06fc4f6.mockapi.io/comments",
+    "https://64435eec90738aa7c06fc4f6.mockapi.io/comments/1",
     { cache: "no-cache" }
   );
 
